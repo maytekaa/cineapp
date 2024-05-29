@@ -7,9 +7,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        'navbar': '#399369'
+        'navbar': '#6F92B0'
       }
     },
   },
-  plugins: [],
+  plugins: [
+    
+  ],
 }
