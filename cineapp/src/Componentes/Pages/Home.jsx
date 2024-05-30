@@ -2,6 +2,7 @@ import data  from "../../../arquivos.json"
 
 function Home(){
     return (
+
         <div className="grid grid-cols-3 gap-3">
         {
             data.map(
@@ -9,7 +10,7 @@ function Home(){
                 
                 <div className='card rounded-lg shadow-md p-4 bg-slate-200' key={index}>
                 <h1>{filme.title}</h1>
-                <img className= ' w-[150px] h-[200px] m-3' src={filme.image} ></img>
+                <img className= ' rounded-lg w-[400px] h-[200px] m-3' src={filme.image} ></img>
                 
                   <div className="tags">
                   {
