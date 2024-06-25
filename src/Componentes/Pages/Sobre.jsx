@@ -5,6 +5,8 @@ function Sobre(){
         <>
           
 
+<br></br>
+<br></br>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ml-7 items-center">
             <div>
               <h2 className="text-blue-800 text-3xl mb-4"> SOBRE NÓS </h2>
@@ -15,9 +17,10 @@ function Sobre(){
             </div>
           </div>
 
+
         <div className="md:col-span-1 flex justify-end">
           <img
-            className="w-64 h-auto" src="/caminho/para/sua/imagem.jpg" alt="Imagem sobre nós"/>
+            className="w-85 h-auto" src="/public/sobre.jpg" alt="Imagem sobre nós"/>
         </div>
       </div>
         
