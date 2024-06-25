@@ -5,23 +5,15 @@ import data  from "../../../arquivos.json"
 function Home(){
     return (
       <>
-      <div className="col-span-3 relative">
-      <div className="col-span-5 flex text-white justify-center items-center p-10 space-x-8 mb-8">
+       <div className="col-span-3 relative">
+        <div className="col-span-5 flex text-white justify-center items-center p-20 space-x-8 mb-8">
           <div className="absolute inset-0 z-0">
             <img className="w-full h-full object-cover" src="/public/fundo1.jpg" alt="Imagem de fundo"/>
-            <div className="text-5xl">
-                <span className="block">CineMax</span>
-                <span className="block">NOTÍCIAS</span>
-              </div>
-                </div>
-
-         
-               
-
           </div>
-
+          </div>
         </div>
 
+         
         <div className="grid grid-cols-3 gap-3">
         {
             data.map(

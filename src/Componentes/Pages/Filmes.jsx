@@ -17,6 +17,14 @@ function Filmes() {
   
     return ( 
         <>
+        <div className="col-span-3 relative">
+        <div className="col-span-5 flex text-white justify-center items-center p-20 space-x-8 mb-8">
+          <div className="absolute inset-0 z-0">
+            <img className="w-full h-full object-cover" src="/public/fundo2.jpg" alt="Imagem de fundo"/>
+          </div>
+          </div>
+        </div>
+        
         <br></br>
         <br></br>    
         <div className="absolute right-8">
@@ -25,7 +33,7 @@ function Filmes() {
 
         
             
-        <h1 className="text-2xl ml-60 bg-blue-800 w-60 text-center items-center rounded-2xl">Filmes em Alta</h1>
+        <h1 className="text-2xl ml-60 bg-blue-800 w-60 text-center items-center rounded-2xl text-white">Filmes em Alta</h1>
                               
             <div className="listaFilmes flex"> 
             {
@@ -64,7 +72,7 @@ function Filmes() {
     
         </div>
 
-        <h1 className="text-2xl ml-60 bg-blue-800 w-60 text-center items-center rounded-2xl">Mundo Disney</h1>
+        <h1 className="text-2xl ml-60 bg-blue-800 w-60 text-center items-center text-white rounded-2xl">Mundo Disney</h1>
 
         <div className="listaFilmes flex"> 
             {
@@ -103,7 +111,7 @@ function Filmes() {
     
         </div>
 
-        <h1 className="text-2xl ml-60 bg-blue-800 w-28 text-center items-center rounded-2xl">Comédia</h1>
+        <h1 className="text-2xl ml-60 bg-blue-800 w-28 text-center items-center text-white rounded-2xl">Comédia</h1>
         
       
         <div className="listaFilmes flex"> 
@@ -143,7 +151,7 @@ function Filmes() {
     
         </div>
 
-        <h1 className="text-2xl ml-60 bg-blue-800 w-28 text-center items-center rounded-2xl">Marvel</h1>
+        <h1 className="text-2xl ml-60 bg-blue-800 w-28 text-center items-center text-white rounded-2xl">Marvel</h1>
 
     <div className="listaFilmes flex"> 
     {

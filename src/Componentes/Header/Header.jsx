@@ -3,7 +3,7 @@ import NavBar from '../NavBar/NavBar'
 
 function Header(){
     return (
-        <header className="flex bg-navbar text-white p-4  justify-between">
+        <header className="flex bg-navbar text-white p-4 justify-between">
         <span>Olá, visitante!</span>
         <div className="flex items-center"> 
                 <h1>CineMax</h1>
